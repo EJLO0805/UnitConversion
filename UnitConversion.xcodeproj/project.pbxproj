@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		53A6715F28BDC6BF00D8690F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6715E28BDC6BF00D8690F /* AppDelegate.swift */; };
 		53A6716128BDC6BF00D8690F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6716028BDC6BF00D8690F /* SceneDelegate.swift */; };
-		53A6716328BDC6BF00D8690F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6716228BDC6BF00D8690F /* ViewController.swift */; };
 		53A6716628BDC6BF00D8690F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A6716428BDC6BF00D8690F /* Main.storyboard */; };
 		53A6716828BDC6C200D8690F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A6716728BDC6C200D8690F /* Assets.xcassets */; };
 		53A6716B28BDC6C200D8690F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A6716928BDC6C200D8690F /* LaunchScreen.storyboard */; };
+		53A6717528BDD22700D8690F /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6717428BDD22700D8690F /* TemperatureViewController.swift */; };
+		53A6717728BDD24A00D8690F /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6717628BDD24A00D8690F /* BMIViewController.swift */; };
+		53A6717928BDD26700D8690F /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6717828BDD26700D8690F /* InterestViewController.swift */; };
+		53A6717B28BDD61100D8690F /* CalculateFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6717A28BDD61100D8690F /* CalculateFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53A6715B28BDC6BF00D8690F /* UnitConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A6715E28BDC6BF00D8690F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53A6716028BDC6BF00D8690F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53A6716228BDC6BF00D8690F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53A6716528BDC6BF00D8690F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53A6716728BDC6C200D8690F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53A6716A28BDC6C200D8690F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53A6716C28BDC6C200D8690F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A6717428BDD22700D8690F /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		53A6717628BDD24A00D8690F /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		53A6717828BDD26700D8690F /* InterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		53A6717A28BDD61100D8690F /* CalculateFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				53A6715E28BDC6BF00D8690F /* AppDelegate.swift */,
 				53A6716028BDC6BF00D8690F /* SceneDelegate.swift */,
-				53A6716228BDC6BF00D8690F /* ViewController.swift */,
 				53A6716428BDC6BF00D8690F /* Main.storyboard */,
+				53A6717828BDD26700D8690F /* InterestViewController.swift */,
+				53A6717628BDD24A00D8690F /* BMIViewController.swift */,
+				53A6717A28BDD61100D8690F /* CalculateFunction.swift */,
+				53A6717428BDD22700D8690F /* TemperatureViewController.swift */,
 				53A6716728BDC6C200D8690F /* Assets.xcassets */,
 				53A6716928BDC6C200D8690F /* LaunchScreen.storyboard */,
 				53A6716C28BDC6C200D8690F /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53A6716328BDC6BF00D8690F /* ViewController.swift in Sources */,
+				53A6717928BDD26700D8690F /* InterestViewController.swift in Sources */,
 				53A6715F28BDC6BF00D8690F /* AppDelegate.swift in Sources */,
 				53A6716128BDC6BF00D8690F /* SceneDelegate.swift in Sources */,
+				53A6717B28BDD61100D8690F /* CalculateFunction.swift in Sources */,
+				53A6717728BDD24A00D8690F /* BMIViewController.swift in Sources */,
+				53A6717528BDD22700D8690F /* TemperatureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
